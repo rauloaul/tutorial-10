@@ -12,9 +12,9 @@
 ## 1.3: Multiple spawn and removing drop.
 
 ### Before removing drop
-![alt text](image.png)
+![alt text](images/image2.png)
 
 ### After removing drop
-![alt text](image.png)
+![alt text](images/image3.png)
 
 When spawning those tasks, the sequence of results may differ from the order in which they were specified in the code due to their asynchronous execution. Before we removed the drop statement, the program exited successfully. However, after removing it, the program continued running even after executing all tasks because the drop statement was still present, leading the program to expect additional tasks to be spawned.
